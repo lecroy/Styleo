@@ -1,0 +1,140 @@
+body {
+  font-family: arial;
+  color: #2a3c43;
+  min-height: 100%;
+  position: relative;
+}
+
+.sidebar-back {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  z-index: -1;
+  background: #edefef;
+  position: absolute;
+}
+
+.nav {
+  width: 200px;
+  float: left;
+  display: inline-block;
+}
+
+.logo {
+  background: #1eaedb;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -20px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.main-navigation {
+  color: #1a1a1a;
+  font-size: 16px;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+}
+.main-navigation li {
+  margin: 10px 20px;
+}
+.main-navigation a {
+  color: #8f999b;
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+}
+.main-navigation .selected {
+  color: #2a3c43;
+  font-weight: bold;
+  background: #fff;
+}
+.content {
+  max-width: 80%;
+  margin: 0px 0px 0px 240px;
+}
+.color-column {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.colors-wrap {
+  border: 1px solid #edefef;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(42,60,67,0.05);
+  width: 250px;
+  text-align: center;
+  padding: 4px 4px 25px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+.color,
+.olark-gray-dark,
+.olark-gray-medium,
+.olark-gray-light,
+.olark-green,
+.olark-green-medium,
+.olark-blue,
+.olark-blue-medium,
+.olark-blue-light,
+.olark-blue-light-muted,
+.olark-orange,
+.olark-orange-medium,
+.olark-yellow,
+.olark-yellow-medium {
+  height: 50px;
+  width: 100%;
+}
+.variable-name {
+  margin: 0.5em 0 0.25em;
+}
+.hex-value {
+  color: #8f999b;
+  margin: 0px;
+}
+.olark-gray-dark {
+  background: #2a3c43;
+}
+.olark-gray-medium {
+  background: #8f999b;
+}
+.olark-gray-light {
+  background: #edefef;
+}
+.olark-green {
+  background: #48c019;
+}
+.olark-green-medium {
+  background: #88de68;
+}
+.olark-blue {
+  background: #1eaedb;
+}
+.olark-blue-medium {
+  background: #6fcae8;
+}
+.olark-blue-light {
+  background: #cff1fc;
+}
+.olark-blue-light-muted {
+  background: #e4f5f9;
+}
+.olark-orange {
+  background: #d65129;
+}
+.olark-orange-medium {
+  background: #e6723d;
+}
+.olark-yellow {
+  background: #eec317;
+}
+.olark-yellow-medium {
+  background: #f4db2a;
+}

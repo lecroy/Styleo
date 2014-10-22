@@ -1,0 +1,151 @@
+$olark-gray-dark = #2a3c43
+$olark-gray-medium = #8f999b
+$olark-gray-light = #edefef
+$olark-gray-medium = #8f999b
+$olark-green = #48c019
+$olark-green-medium = #88DE68
+$olark-blue = #1eaedb
+$olark-blue-medium = #6FCAE8
+$olark-blue-light = #cff1fc
+$olark-blue-light-muted = #e4f5f9
+$olark-orange = #d65129
+$olark-orange-medium = #E6723D
+$olark-yellow = #eec317
+$olark-yellow-medium = #f4db2a
+
+body
+    font-family: arial
+    color: $olark-gray-dark
+
+.sidebar-back {
+    top: 0
+    left: 0
+    bottom: 0
+    width: 200px
+    z-index: -1
+    background: $olark-gray-light
+    position: absolute
+}
+
+.nav
+    width: 200px
+    background: $olark-gray-light
+    position: absolute
+    top: 0px
+    bottom: 0px
+
+.logo
+    background: $olark-blue
+    box-sizing: border-box
+    color: white
+    display: inline-block
+    font-weight: bold
+    font-size: 30px
+    margin: 0px
+    padding: 15px
+    text-align: center
+    width: 100%
+
+.main-navigation
+    color: #1a1a1a
+    font-size: 16px
+    list-style: none
+    margin: 0px
+    padding: 10px
+    li
+        margin: 10px 20px
+    a
+        color: $olark-gray-medium
+        display: inline-block
+        padding: 15px
+        text-decoration: none
+        width: 100%
+        border-radius: 5px 0px 0px 5px
+
+    .selected
+        color: $olark-gray-dark
+        font-weight: bold
+        background: white
+
+.content
+    max-width: 80%
+    margin: 0px 0px 0px 240px
+
+.color-column
+    width: 100%
+    display: inline-block
+    margin-bottom: 1em
+
+.colors-wrap
+    border: 1px solid $olark-gray-light
+    border-radius: 3px
+    box-shadow: 0px 1px 1px 0px rgba($olark-gray-dark, .05)
+    width: 250px
+    text-align: center
+    padding: 4px 4px 25px
+    float: left
+    margin: 0px 20px 20px 0px
+
+.color
+    height: 50px
+    width: 100%
+
+.variable-name
+    margin: .5em 0 .25em
+
+.hex-value
+    color: $olark-gray-medium
+    margin: 0px
+
+.olark-gray-dark
+    @extend .color;
+    background: $olark-gray-dark
+
+.olark-gray-medium
+    @extend .color;
+    background: $olark-gray-medium
+
+.olark-gray-light
+    @extend .color;
+    background: $olark-gray-light
+
+.olark-green
+    @extend .color;
+    background: $olark-green
+
+.olark-green-medium
+    @extend .color;
+    background: $olark-green-medium
+
+.olark-blue
+    @extend .color;
+    background: $olark-blue
+
+.olark-blue-medium
+    @extend .color;
+    background: $olark-blue-medium
+
+.olark-blue-light
+    @extend .color;
+    background: $olark-blue-light
+
+.olark-blue-light-muted
+    @extend .color;
+    background: $olark-blue-light-muted
+
+.olark-orange
+    @extend .color;
+    background: $olark-orange
+
+.olark-orange-medium
+    @extend .color;
+    background: $olark-orange-medium
+
+.olark-yellow
+    @extend .color;
+    background: $olark-yellow
+
+.olark-yellow-medium
+    @extend .color;
+    background: $olark-yellow-medium
+

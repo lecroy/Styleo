@@ -1,0 +1,22 @@
+{
+  "name": "Stylus",
+  "version": "0.48.1",
+  "description": "Robust, expressive, and feature-rich CSS superset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LearnBoost/stylus "
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LearnBoost/stylus /issues"
+  },
+  "homepage": "https://github.com/LearnBoost/stylus ",
+  "dependencies": {
+    "stylus": "^0.48.1"
+  }
+}
